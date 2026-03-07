@@ -1,6 +1,6 @@
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: DM Mono, monospace;
     margin: 0;
     padding: 20px;
     background-image: url('../images/background 1.jpg');
@@ -13,23 +13,31 @@ header {
     justify-content: center;
 }
 
-#TRHGS {
+h1#TRHGS {
     align-items: left;
     font-size: 60px;
     color: white;
     text-align: center;
+    background-color: rgb(206, 64, 87, 0.8);
+    font-weight: bold;
 }
 
-#TL {
-    align-items: left;
-    font-size: 30px;
+h2#TL {
+    font-size: 25px;
     color: white;
     text-align: center;
+    background-clip: content-box;
+    background-color: rgb(206, 64, 87, 0.8);
 }
 
 nav a {
     margin-right: 25px;
     text-decoration: none;
+    color: white;
+    background-color: rgb(206, 64, 87, 0.8);
+}
+
+a {
     color: white;
 }
 
@@ -63,4 +71,22 @@ form#searchForm.search-section {
 
 #results img {
     justify-content: space-evenly;
+}
+
+div#results {
+    display: flex;
+    flex-wrap: wrap;
+    column-count: 3;
+    column-gap: space-evenly;
+    justify-content: space-evenly;
+}
+
+h3 {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(206, 64, 87, 0.8);
+    background-size: 50%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-style: italic;
 }
