@@ -1,19 +1,44 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
+    background-image: url('../images/background 1.jpg');
+    background-size: cover;
 }
 
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
+}
+
+#TRHGS {
+    align-items: left;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+
+#TL {
+    align-items: left;
+    font-size: 30px;
+    color: white;
+    text-align: center;
 }
 
 nav a {
-    margin-right: 15px;
+    margin-right: 25px;
     text-decoration: none;
-    color: black;
+    color: white;
+}
+
+nav {
+    text-align: center;
+}
+
+form#searchForm.search-section {
+    justify-content: center;
 }
 
 .search-section {
@@ -37,5 +62,5 @@ nav a {
 }
 
 #results img {
-    width: 200px;
+    justify-content: space-evenly;
 }
