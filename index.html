@@ -3,12 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/site.css" />
-    <link rel="stylesheet" href="./scss/site.scss" />
+    <title>TRHW GIF Search</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./scss/style.scss" />
 </head>
 <body>
-    
-    <script src="./js/site.js"></script>
+
+<header>
+    <h1 id="TRHGS">The Real Housewives GIF Search</h1>
+    <div>
+    <h2 id="TL">Home to The Ladies of OC, NYC, ATL, NJ, BH, SLC, Potomac & Dubai</h2>
+    </div>
+    <div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">The Franchises</a>
+        <a href="#">About</a>
+    </nav>
+    </div>
+</header>
+
+<!-- SEARCH FORM -->
+<form id="searchForm" class="search-section">
+    <input type="search" id="searchInput" placeholder="Search GIFs">
+    <button type="submit">Search</button>
+</form>
+
+<!-- RESULTS -->
+<div id="results"></div>
+
+<!-- JS at bottom -->
+<script src="./js/main.js"></script>
+
 </body>
 </html>
