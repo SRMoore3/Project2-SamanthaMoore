@@ -1,8 +1,9 @@
 
 body {
     font-family: DM Mono, monospace;
-    margin: 0;
-    padding: 20px;
+    margin: 15px;
+    padding: 40px;
+    border: 15px;
     background-image: url('../images/background 1.jpg');
     background-size: cover;
 }
@@ -11,6 +12,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 h1#TRHGS {
@@ -28,21 +35,32 @@ h2#TL {
     text-align: center;
     background-clip: content-box;
     background-color: rgb(206, 64, 87, 0.8);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 nav a {
     margin-right: 25px;
     text-decoration: none;
     color: white;
-    background-color: rgb(206, 64, 87, 0.8);
+  
 }
 
 a {
     color: white;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 nav {
     text-align: center;
+    background-color: rgba(187, 24, 246, 0.8);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 210px;
+    margin-right: 210px;
 }
 
 form#searchForm.search-section {
@@ -89,4 +107,53 @@ h3 {
     background-size: 50%;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-style: italic;
+}
+
+h3#h3p {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+div#suggested-searches-section {
+    display: flex;
+    justify-content: center
+
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 20px auto;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    justify-content: space-evenly;
+    border: 1px;
+    border-spacing: 5px;
+    border-collapse: separate;
+}
+
+table, th, td {
+    background-color: rgb(206, 64, 87, 0.8);
+}
+
+th, td {
+    padding: 10px;
+}
+
+
+
+h2#h2table{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(206, 64, 87, 0.8);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 260px;
+    margin-right: 260px;
 }
