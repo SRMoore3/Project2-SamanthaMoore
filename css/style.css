@@ -38,8 +38,8 @@ h2#TL {
     background-color: rgb(206, 64, 87, 0.8);
     padding-left: 20px;
     padding-right: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
     margin-top: -10px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 
@@ -64,8 +64,8 @@ nav {
     background-color: rgba(187, 24, 246, 0.8);
     padding-left: 20px;
     padding-right: 20px;
-    margin-left: 210px;
-    margin-right: 210px;
+    margin-left: 600px;
+    margin-right: 600px;
     margin-top: 50px;
     color: rgba(255, 255, 255, 0.5);
     border: solid 1px;
@@ -128,8 +128,8 @@ h3 {
 h3#h3p {
     padding-left: 30px;
     padding-right: 30px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 410px;
+    margin-right: 410px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 
 }
@@ -184,8 +184,8 @@ h2#h2table{
     background-color: rgb(206, 64, 87, 0.8);
     padding-left: 20px;
     padding-right: 20px;
-    margin-left: 260px;
-    margin-right: 260px;
+    margin-left: 680px;
+    margin-right: 680px;
     margin-bottom: -10px;
     margin-top: 40px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
@@ -221,7 +221,7 @@ h2#h2table{
     flex-direction: column;
     padding: 0;
   }
-  
+
   #gif-grid {
     grid-template-columns: 1fr;
   }
