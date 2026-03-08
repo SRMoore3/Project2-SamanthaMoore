@@ -39,6 +39,8 @@ h2#TL {
     padding-right: 20px;
     margin-left: 10px;
     margin-right: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+
 }
 
 nav a {
@@ -105,7 +107,7 @@ h3 {
     color: white;
     background-color: rgb(206, 64, 87, 0.8);
     background-size: 50%;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     font-style: italic;
 }
 
@@ -114,6 +116,8 @@ h3#h3p {
     padding-right: 30px;
     margin-left: 100px;
     margin-right: 100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+
 }
 
 div#suggested-searches-section {
@@ -128,21 +132,33 @@ table {
     width: 50%;
     margin: 20px auto;
     color: white;
-    padding-left: 100px;
-    padding-right: 100px;
     text-align: center;
     justify-content: space-evenly;
     border: 1px;
     border-spacing: 5px;
     border-collapse: separate;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+
 }
 
 table, th, td {
     background-color: rgb(206, 64, 87, 0.8);
+    width: auto;
+    height: auto;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+
+}
+
+th {
+    font-weight: bold;
+    font-size: 17px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+
 }
 
 th, td {
     padding: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 
@@ -156,4 +172,6 @@ h2#h2table{
     padding-right: 20px;
     margin-left: 260px;
     margin-right: 260px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+
 }
