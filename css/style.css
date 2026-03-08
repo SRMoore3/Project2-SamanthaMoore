@@ -204,3 +204,26 @@ h2#h2table{
   height: 200px;
   object-fit: cover;
 }
+
+@media (max-width: 320px) {
+
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  body {
+    flex-direction: column;
+    padding: 0;
+  }
+  
+  #gif-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
