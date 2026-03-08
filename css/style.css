@@ -22,11 +22,12 @@ header {
 
 h1#TRHGS {
     align-items: left;
-    font-size: 60px;
+    font-size: 45px;
     color: white;
     text-align: center;
     background-color: rgb(206, 64, 87, 0.8);
     font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 h2#TL {
@@ -39,6 +40,7 @@ h2#TL {
     padding-right: 20px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: -10px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 
 }
@@ -47,6 +49,7 @@ nav a {
     margin-right: 25px;
     text-decoration: none;
     color: white;
+    
   
 }
 
@@ -63,10 +66,14 @@ nav {
     padding-right: 20px;
     margin-left: 210px;
     margin-right: 210px;
+    margin-top: 50px;
+    color: rgba(255, 255, 255, 0.5);
+    border: solid 1px;
 }
 
 form#searchForm.search-section {
     justify-content: center;
+    margin-top: 50px;
 }
 
 .search-section {
@@ -77,10 +84,16 @@ form#searchForm.search-section {
 .search-section input {
     padding: 8px;
     width: 250px;
+    font-family: DM Mono, monospace;
 }
 
 .search-section button {
     padding: 8px 12px;
+    font-family: DM Mono, monospace;
+    background-color: rgb(187, 24, 246, 0.8);
+    border-color: rgba(255, 255, 255, 0.5);
+    border: solid 1px;
+    color: white;
 }
 
 #results {
@@ -109,6 +122,7 @@ h3 {
     background-size: 50%;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     font-style: italic;
+    margin-top: 50px;
 }
 
 h3#h3p {
